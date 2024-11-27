@@ -1,0 +1,24 @@
+/* src/pages/Reports.css */
+.reports-page {
+  padding: 2rem;
+}
+
+.reports-title {
+  margin-bottom: 1rem;
+ 
+}
+
+.reports-paper {
+  padding: 2rem;
+  
+}
+
+.reports-grid {
+  margin-top: 2rem;
+  position: relative;
+  top: 10px;
+}
+
+.apply-filter-button {
+  float: left;
+}

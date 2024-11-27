@@ -1,0 +1,61 @@
+
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawer-paper {
+  width: 200px;
+  background-color: #1565c0; 
+  color: white; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.toolbar {
+  min-height: 64px; 
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1976d2;
+}
+
+.box {
+  padding: 8px 0;
+  width: 300px;
+}
+
+
+.list-item-button {
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.list-item-button:hover {
+  background-color: #1e88e5; 
+}
+
+
+.list-item-icon {
+  color: white; 
+  min-width: 40px; 
+}
+
+
+.list-item-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: black; 
+}
+
+
+.list-item-button.active {
+  background-color: #42a5f5; 
+  font-weight: bold;
+}
+
+.MuiList-root {
+width: 300px;
+}

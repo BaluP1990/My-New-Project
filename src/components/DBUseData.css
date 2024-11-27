@@ -1,0 +1,78 @@
+/* UserTable.css */
+
+/* Container for the table */
+.user-table-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table styles */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  /* Header styles */
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Header background color and text color */
+  .user-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Zebra striping for rows */
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Row hover effect */
+  .user-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Font size for table data */
+  .user-table th, .user-table td {
+    font-size: 14px;
+  }
+  
+  /* Make the table responsive */
+  @media (max-width: 600px) {
+    .user-table {
+      border: 0;
+    }
+  
+    .user-table thead {
+      display: none;
+    }
+  
+    .user-table tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .user-table td {
+      display: block;
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+      border: 1px solid #ddd;
+    }
+  
+    .user-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 10px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  
